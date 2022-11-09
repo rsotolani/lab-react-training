@@ -41,7 +41,7 @@ function IdCard({lastName, firstName, gender, height, birth, picture}) {
         <div className='idcard-border'>
             <img
                 src = {picture} 
-                alt = "photo"
+                alt = "personal photography"
                 />
             <div>
               <p><strong>First name:</strong> {firstName}</p>

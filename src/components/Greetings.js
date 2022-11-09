@@ -16,6 +16,13 @@ function Greetings(props) {
     //     case "de":
     //         return()
     // }
+    // if (props.lang === "de") {
+    //     return (
+    //         <h2 className="h-border">
+    //             {props.lang === "de" ? "Hallo" : "Bonjour"} {props.children}
+    //         </h2>
+    //     )
+    // }
 
     return (
         <h2 className="h-border">
